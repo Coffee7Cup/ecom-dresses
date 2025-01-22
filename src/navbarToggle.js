@@ -10,11 +10,11 @@ buttons.forEach(button => {
     const dropdown = document.getElementById(dropdownId);
 
     // Toggle the clicked dropdown and hide others
-    dropdowns.forEach(d => {
-      if (d.id === dropdownId) {
-        d.classList.toggle("hidden");
+    dropdowns.forEach(drop => {
+      if (drop.id === dropdownId) {
+        drop.classList.toggle("hidden");
       } else {
-        d.classList.add("hidden");
+        drop.classList.add("hidden");
       }
     });
   });

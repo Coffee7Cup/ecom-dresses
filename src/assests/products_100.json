@@ -17,7 +17,7 @@
     {
         "_id": 2,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 1.2,
         "cost": 81,
         "name": "Product 2",
@@ -182,7 +182,7 @@
     {
         "_id": 13,
         "for": "male",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 2.7,
         "cost": 477,
         "name": "Product 13",
@@ -197,7 +197,7 @@
     {
         "_id": 14,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 1.0,
         "cost": 424,
         "name": "Product 14",
@@ -317,7 +317,7 @@
     {
         "_id": 22,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 2.5,
         "cost": 484,
         "name": "Product 22",
@@ -377,7 +377,7 @@
     {
         "_id": 26,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 4.7,
         "cost": 425,
         "name": "Product 26",
@@ -452,7 +452,7 @@
     {
         "_id": 31,
         "for": "female",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 3.3,
         "cost": 319,
         "name": "Product 31",
@@ -497,7 +497,7 @@
     {
         "_id": 34,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 1.2,
         "cost": 41,
         "name": "Product 34",
@@ -572,7 +572,7 @@
     {
         "_id": 39,
         "for": "male",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 2.5,
         "cost": 159,
         "name": "Product 39",
@@ -647,7 +647,7 @@
     {
         "_id": 44,
         "for": "male",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 1.8,
         "cost": 394,
         "name": "Product 44",
@@ -692,7 +692,7 @@
     {
         "_id": 47,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 1.6,
         "cost": 295,
         "name": "Product 47",
@@ -797,7 +797,7 @@
     {
         "_id": 54,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 3.2,
         "cost": 390,
         "name": "Product 54",
@@ -872,7 +872,7 @@
     {
         "_id": 59,
         "for": "female",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 1.1,
         "cost": 410,
         "name": "Product 59",
@@ -1037,7 +1037,7 @@
     {
         "_id": 70,
         "for": "male",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 2.5,
         "cost": 494,
         "name": "Product 70",
@@ -1097,7 +1097,7 @@
     {
         "_id": 74,
         "for": "male",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 4.5,
         "cost": 376,
         "name": "Product 74",
@@ -1127,7 +1127,7 @@
     {
         "_id": 76,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 1.9,
         "cost": 415,
         "name": "Product 76",
@@ -1172,7 +1172,7 @@
     {
         "_id": 79,
         "for": "male",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 1.7,
         "cost": 193,
         "name": "Product 79",
@@ -1187,7 +1187,7 @@
     {
         "_id": 80,
         "for": "female",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 3.9,
         "cost": 119,
         "name": "Product 80",
@@ -1202,7 +1202,7 @@
     {
         "_id": 81,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 3.3,
         "cost": 320,
         "name": "Product 81",
@@ -1232,7 +1232,7 @@
     {
         "_id": 83,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 4.6,
         "cost": 91,
         "name": "Product 83",
@@ -1337,7 +1337,7 @@
     {
         "_id": 90,
         "for": "kids",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 3.4,
         "cost": 275,
         "name": "Product 90",
@@ -1367,7 +1367,7 @@
     {
         "_id": 92,
         "for": "female",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 2.3,
         "cost": 216,
         "name": "Product 92",
@@ -1412,7 +1412,7 @@
     {
         "_id": 95,
         "for": "male",
-        "type": "foot ware",
+        "type": "footware",
         "reviews": 3.6,
         "cost": 145,
         "name": "Product 95",

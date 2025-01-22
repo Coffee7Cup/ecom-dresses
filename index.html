@@ -1,216 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  <body>
+    <div id="app"></div>
 
-<body>
-  <div id="app"></div>
-
-  <nav class="bg-gray-100 border-gray-200 text-black fixed top-0 w-full z-50">
-    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap hover:text-gray-600 transition">
-          Yash
-        </span>
-      </a>
-      <button data-collapse-toggle="mega-menu-full" type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-200 transition focus:outline-none focus:ring-2 focus:ring-gray-300"
-        aria-controls="mega-menu-full" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
-        </svg>
-      </button>
-      <div id="mega-menu-full" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
-        <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
-          <li>
-            <button id="mega-menu-men-button" data-collapse-toggle="mega-menu-men-dropdown"
-              class="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-200 md:w-auto hover:bg-gray-200 hover:text-gray-600 transition md:hover:bg-transparent md:border-0 md:p-0">
-              Men
-              <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="m1 1 4 4 4-4" />
-              </svg>
-            </button>
-          </li>
-          <li>
-            <button id="mega-menu-women-button" data-collapse-toggle="mega-menu-women-dropdown"
-              class="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-200 md:w-auto hover:bg-gray-200 hover:text-gray-600 transition md:hover:bg-transparent md:border-0 md:p-0">
-              Women
-              <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="m1 1 4 4 4-4" />
-              </svg>
-            </button>
-          </li>
-          <li>
-            <button id="mega-menu-kids-button" data-collapse-toggle="mega-menu-kids-dropdown"
-              class="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-200 md:w-auto hover:bg-gray-200 hover:text-gray-600 transition md:hover:bg-transparent md:border-0 md:p-0">
-              Kids
-              <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="m1 1 4 4 4-4" />
-              </svg>
-            </button>
-          </li>
-          <li>
-            <button id="mega-menu-all-button" data-collapse-toggle="mega-menu-all-dropdown"
-              class="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-200 md:w-auto hover:bg-gray-200 hover:text-gray-600 transition md:hover:bg-transparent md:border-0 md:p-0">
-              All
-              <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 10 6">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="m1 1 4 4 4-4" />
-              </svg>
-            </button>
-          </li>
-        </ul>
+    <nav class="bg-gray-100 border-gray-200 text-black fixed top-0 w-full z-50">
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap hover:text-gray-600 transition"
+          >
+            Yash
+          </span>
+        </a>
+        <button
+          data-collapse-toggle="mega-menu-full"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-200 transition focus:outline-none focus:ring-2 focus:ring-gray-300"
+          aria-controls="mega-menu-full"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div
+          id="mega-menu-full"
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+        >
+          <ul
+            class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse"
+          >
+            <li>
+              <button
+                id="mega-menu-men-button"
+                data-collapse-toggle="mega-menu-men-dropdown"
+                class="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-200 md:w-auto hover:bg-gray-200 hover:text-gray-600 transition md:hover:bg-transparent md:border-0 md:p-0"
+              >
+                Men
+                <svg
+                  class="w-2.5 h-2.5 ms-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button
+                id="mega-menu-women-button"
+                data-collapse-toggle="mega-menu-women-dropdown"
+                class="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-200 md:w-auto hover:bg-gray-200 hover:text-gray-600 transition md:hover:bg-transparent md:border-0 md:p-0"
+              >
+                Women
+                <svg
+                  class="w-2.5 h-2.5 ms-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button
+                id="mega-menu-kids-button"
+                data-collapse-toggle="mega-menu-kids-dropdown"
+                class="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-200 md:w-auto hover:bg-gray-200 hover:text-gray-600 transition md:hover:bg-transparent md:border-0 md:p-0"
+              >
+                Kids
+                <svg
+                  class="w-2.5 h-2.5 ms-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button
+                id="mega-menu-all-button"
+                data-collapse-toggle="mega-menu-all-dropdown"
+                class="flex items-center justify-between w-full py-2 px-3 font-medium text-black border-b border-gray-200 md:w-auto hover:bg-gray-200 hover:text-gray-600 transition md:hover:bg-transparent md:border-0 md:p-0"
+              >
+                All
+                <svg
+                  class="w-2.5 h-2.5 ms-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div id="mega-menu-men-dropdown" class="hidden mt-1 bg-gray-200 border-gray-300 shadow-sm border-y">
-      <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-black sm:grid-cols-4 md:grid-cols-4 md:px-6">
-        <ul>
-          <li>
-            <a href="#" id="men-clothing" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Clothing
-            </a>
-          </li>
-          <li>
-            <a href="#" id="men-footwear" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Footwear
-            </a>
-          </li>
-          <li>
-            <a href="#" id="men-accessories" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Accessories
-            </a>
-          </li>
-          <li>
-            <a href="#" id="men-eyewear" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Eyewear
-            </a>
-          </li>
-        </ul>
+      <div
+        id="mega-menu-men-dropdown"
+        class="hidden mt-1 bg-gray-200 border-gray-300 shadow-sm border-y"
+      >
+        <div
+          class="grid max-w-screen-xl px-4 py-5 mx-auto text-black sm:grid-cols-4 md:grid-cols-4 md:px-6"
+        >
+          <ul>
+            <li>
+              <a
+                href="#"
+                id="men-clothing"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Clothing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="men-footwear"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Footwear
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="men-accessories"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Accessories
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="men-eyewear"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Eyewear
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div id="mega-menu-women-dropdown" class="hidden mt-1 bg-gray-200 border-gray-300 shadow-sm border-y">
-      <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-black sm:grid-cols-4 md:grid-cols-4 md:px-6">
-        <ul>
-          <li>
-            <a href="#" id="women-clothing" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Clothing
-            </a>
-          </li>
-          <li>
-            <a href="#" id="women-footwear" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Footwear
-            </a>
-          </li>
-          <li>
-            <a href="#" id="women-accessories" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Accessories
-            </a>
-          </li>
-          <li>
-            <a href="#" id="women-eyewear" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Eyewear
-            </a>
-          </li>
-        </ul>
+      <div
+        id="mega-menu-women-dropdown"
+        class="hidden mt-1 bg-gray-200 border-gray-300 shadow-sm border-y"
+      >
+        <div
+          class="grid max-w-screen-xl px-4 py-5 mx-auto text-black sm:grid-cols-4 md:grid-cols-4 md:px-6"
+        >
+          <ul>
+            <li>
+              <a
+                href="#"
+                id="women-clothing"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Clothing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="women-footwear"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Footwear
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="women-accessories"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Accessories
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="women-eyewear"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Eyewear
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div id="mega-menu-kids-dropdown" class="hidden mt-1 bg-gray-200 border-gray-300 shadow-sm border-y">
-      <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-black sm:grid-cols-4 md:grid-cols-4 md:px-6">
-        <ul>
-          <li>
-            <a href="#" id="kids-clothing" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Clothing
-            </a>
-          </li>
-          <li>
-            <a href="#" id="kids-footwear" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Footwear
-            </a>
-          </li>
-          <li>
-            <a href="#" id="kids-accessories" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Accessories
-            </a>
-          </li>
-          <li>
-            <a href="#" id="kids-eyewear" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Eyewear
-            </a>
-          </li>
-        </ul>
+      <div
+        id="mega-menu-kids-dropdown"
+        class="hidden mt-1 bg-gray-200 border-gray-300 shadow-sm border-y"
+      >
+        <div
+          class="grid max-w-screen-xl px-4 py-5 mx-auto text-black sm:grid-cols-4 md:grid-cols-4 md:px-6"
+        >
+          <ul>
+            <li>
+              <a
+                href="#"
+                id="kids-clothing"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Clothing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="kids-footwear"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Footwear
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="kids-accessories"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Accessories
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="kids-eyewear"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Eyewear
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div id="mega-menu-all-dropdown" class="hidden mt-1 bg-gray-200 border-gray-300 shadow-sm border-y">
-      <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-black sm:grid-cols-4 md:grid-cols-4 md:px-6">
-        <ul>
-          <li>
-            <a href="#" id="all-clothing" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Clothing
-            </a>
-          </li>
-          <li>
-            <a href="#" id="all-footwear" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Footwear
-            </a>
-          </li>
-          <li>
-            <a href="#" id="all-accessories" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Accessories
-            </a>
-          </li>
-          <li>
-            <a href="#" id="all-eyewear" class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition">
-              Eyewear
-            </a>
-          </li>
-        </ul>
+      <div
+        id="mega-menu-all-dropdown"
+        class="hidden mt-1 bg-gray-200 border-gray-300 shadow-sm border-y"
+      >
+        <div
+          class="grid max-w-screen-xl px-4 py-5 mx-auto text-black sm:grid-cols-4 md:grid-cols-4 md:px-6"
+        >
+          <ul>
+            <li>
+              <a
+                href="#"
+                id="all-clothing"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Clothing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="all-footwear"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Footwear
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="all-accessories"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Accessories
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                id="all-eyewear"
+                class="block p-3 rounded-lg hover:bg-gray-300 hover:text-gray-600 transition"
+              >
+                Eyewear
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
+    <!-- main section -->
+    <div id="Main" class="bg-gray-100"></div>
 
-  <!-- main section -->
-  <div id="Main" class="bg-gray-100"></div>
-
-  <script>
-
-    const pref = [];
-
-    document.getElementById('men-clothing').addEventListener('click', function() {
-        if(!pref.includes('male')){
-          pref.push('male');
-        }
-        if(!pref.includes('clothing'))
-    });
-
-    document.getElementById('men-footwear').addEventListener('click', function() {
-        alert('Men Footwear clicked!');
-    });
-
-    document.getElementById('men-accessories').addEventListener('click', function() {
-        alert('Men Accessories clicked!');
-    });
-
-    document.getElementById('men-eyewear').addEventListener('click', function() {
-        alert('Men Eyewear clicked!');
-    });
-</script>
-  <script src="/src/updateMain.js"></script>
-  <script src="/src/navbarToggle.js"></script>
-  <script type="module" src="/src/main.js"></script>
-</body>
-
+    <script type="module" src="/src/updateMain.js"></script>
+    <script type="module" src="/src/navbarToggle.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

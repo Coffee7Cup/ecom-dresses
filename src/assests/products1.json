@@ -1,0 +1,142 @@
+[
+    {
+        "for": "female",
+        "type": "Accessories",
+        "reviews": 2.5,
+        "cost": 365,
+        "name": "Product 1",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 1
+    },
+    {
+        "for": "kids",
+        "type": "Footwear",
+        "reviews": 2.5,
+        "cost": 326,
+        "name": "Product 2",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 0
+    },
+    {
+        "for": "female",
+        "type": "Footwear",
+        "reviews": 2.0,
+        "cost": 105,
+        "name": "Product 3",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 0
+    },
+    {
+        "for": "male",
+        "type": "Eyewear",
+        "reviews": 3.9,
+        "cost": 447,
+        "name": "Product 4",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 0
+    },
+    {
+        "for": "female",
+        "type": "Footwear",
+        "reviews": 4.8,
+        "cost": 118,
+        "name": "Product 5",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 1
+    },
+    {
+        "for": "male",
+        "type": "Eyewear",
+        "reviews": 3.7,
+        "cost": 122,
+        "name": "Product 6",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 0
+    },
+    {
+        "for": "female",
+        "type": "Accessories",
+        "reviews": 1.3,
+        "cost": 105,
+        "name": "Product 7",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 1
+    },
+    {
+        "for": "female",
+        "type": "Clothing",
+        "reviews": 4.9,
+        "cost": 343,
+        "name": "Product 8",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 0
+    },
+    {
+        "for": "kids",
+        "type": "Clothing",
+        "reviews": 1.7,
+        "cost": 244,
+        "name": "Product 9",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 1
+    },
+    {
+        "for": "male",
+        "type": "Clothing",
+        "reviews": 2.6,
+        "cost": 71,
+        "name": "Product 10",
+        "img": [
+            {
+                "cloth": "https://placehold.co/600x400",
+                "pic": "https://placehold.co/600x400"
+            }
+        ],
+        "offer": 1
+    }
+]
